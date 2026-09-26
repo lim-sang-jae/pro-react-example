@@ -23,10 +23,10 @@ export default class App extends Component {
       <div className="container-fluid">
         <div className="row">
           <div className="col-6">
-            <h2>my test...</h2>
+            <GeneralList list={this.state.names} theme="primary" />{" "}
           </div>
           <div className="col-6">
-            <h2>my test...</h2>
+            <SortedList list={this.state.names} />{" "}
           </div>
         </div>
       </div>
