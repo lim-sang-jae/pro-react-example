@@ -11,6 +11,7 @@ export class SortedList extends Component {
   }
 
   getList() {
+    console.log(this.props.list);
     return this.state.sort ? [...this.props.list].sort() : this.props.list;
   }
 
